@@ -3,7 +3,7 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: 2.7.1
-    created: "2023-04-15T03:37:03.285183946+08:00"
+    created: "2023-04-15T04:44:35.853755696+08:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 4658364ca2a04a31270738f5eb718ea96502b955ad681241c58abf6f387ff064
@@ -29,7 +29,7 @@ entries:
     version: 1.11.1
   - apiVersion: v1
     appVersion: 2.5.3
-    created: "2023-04-15T03:37:03.288304264+08:00"
+    created: "2023-04-15T04:44:35.859344792+08:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 6ca0d794be7b572075eb5cb46f858808603c58a5b0090e1e10469802c90f4749
@@ -58,7 +58,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.2.3
-    created: "2023-04-15T03:37:03.296205588+08:00"
+    created: "2023-04-15T04:44:35.867704231+08:00"
     dependencies:
     - condition: zookeeper.enabled
       name: zookeeper
@@ -72,7 +72,7 @@ entries:
     description: Apache Kafka is a distributed streaming platform designed to build
       real-time pipelines and can be used as a message broker or as a replacement
       for a log aggregation solution for big data applications.
-    digest: dec1ae3ebf61f7d2dd43441afd7c2f0cace647adc790b87270d5710eb251c88f
+    digest: 603a4378facc2080d5f221366df10839d37b711ffd5d06d4c3181a19e0a4fbbf
     home: https://github.com/bitnami/charts/tree/master/bitnami/kafka
     icon: https://bitnami.com/assets/stacks/kafka/img/kafka-stack-220x234.png
     keywords:
@@ -94,7 +94,7 @@ entries:
   nfs-subdir-external-provisioner:
   - apiVersion: v1
     appVersion: 4.0.2
-    created: "2023-04-15T03:37:03.296688945+08:00"
+    created: "2023-04-15T04:44:35.868418464+08:00"
     description: nfs-subdir-external-provisioner is an automatic provisioner that
       used your *already configured* NFS server, automatically creating Persistent
       Volumes.
@@ -111,4 +111,4 @@ entries:
     urls:
     - https://gitee.com/jason_zhoushun/helm-charts/raw/master/nfs-subdir-external-provisioner-4.0.18.tgz
     version: 4.0.18
-generated: "2023-04-15T03:37:03.280670544+08:00"
+generated: "2023-04-15T04:44:35.849324475+08:00"
