@@ -3,7 +3,7 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: 2.7.1
-    created: "2023-04-15T00:31:47.933323485+08:00"
+    created: "2023-04-15T00:43:14.906606187+08:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 4658364ca2a04a31270738f5eb718ea96502b955ad681241c58abf6f387ff064
@@ -29,7 +29,7 @@ entries:
     version: 1.11.1
   - apiVersion: v1
     appVersion: 2.5.3
-    created: "2023-04-15T00:31:47.937143607+08:00"
+    created: "2023-04-15T00:43:14.909791711+08:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 6ca0d794be7b572075eb5cb46f858808603c58a5b0090e1e10469802c90f4749
@@ -53,4 +53,24 @@ entries:
     urls:
     - https://gitee.com/jason_zhoushun/helm-charts/raw/master/harbor-1.9.3.tgz
     version: 1.9.3
-generated: "2023-04-15T00:31:47.929966358+08:00"
+  nfs-subdir-external-provisioner:
+  - apiVersion: v1
+    appVersion: 4.0.2
+    created: "2023-04-15T00:43:14.910869578+08:00"
+    description: nfs-subdir-external-provisioner is an automatic provisioner that
+      used your *already configured* NFS server, automatically creating Persistent
+      Volumes.
+    digest: bd2865af658fd7f1a10651cad14d43fd96556d10424e9dade1b35ec4265afc54
+    home: https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner
+    keywords:
+    - nfs
+    - storage
+    - provisioner
+    kubeVersion: '>=1.9.0-0'
+    name: nfs-subdir-external-provisioner
+    sources:
+    - https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner
+    urls:
+    - https://gitee.com/jason_zhoushun/helm-charts/raw/master/nfs-subdir-external-provisioner-4.0.18.tgz
+    version: 4.0.18
+generated: "2023-04-15T00:43:14.90326452+08:00"
