@@ -3,10 +3,10 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: 2.7.1
-    created: "2023-04-15T04:44:35.853755696+08:00"
+    created: "2023-05-04T19:10:11.5644654+08:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
-    digest: 4658364ca2a04a31270738f5eb718ea96502b955ad681241c58abf6f387ff064
+    digest: d5bfeabb170f5085f3e877385041ba92b86cc6e921e273e8327e88142486c058
     home: https://goharbor.io
     icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
     keywords:
@@ -29,10 +29,10 @@ entries:
     version: 1.11.1
   - apiVersion: v1
     appVersion: 2.5.3
-    created: "2023-04-15T04:44:35.859344792+08:00"
+    created: "2023-05-04T19:10:11.569106921+08:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
-    digest: 6ca0d794be7b572075eb5cb46f858808603c58a5b0090e1e10469802c90f4749
+    digest: d4cfcf2d1c4f46dd294788c296d5e2fe6d39a33735ddb5294527b7fd39c1efb1
     home: https://goharbor.io
     icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
     keywords:
@@ -58,7 +58,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.2.3
-    created: "2023-04-15T04:44:35.867704231+08:00"
+    created: "2023-05-04T19:10:11.584328875+08:00"
     dependencies:
     - condition: zookeeper.enabled
       name: zookeeper
@@ -94,7 +94,7 @@ entries:
   nfs-subdir-external-provisioner:
   - apiVersion: v1
     appVersion: 4.0.2
-    created: "2023-04-15T04:44:35.868418464+08:00"
+    created: "2023-05-04T19:10:11.586108706+08:00"
     description: nfs-subdir-external-provisioner is an automatic provisioner that
       used your *already configured* NFS server, automatically creating Persistent
       Volumes.
@@ -111,4 +111,4 @@ entries:
     urls:
     - https://gitee.com/jason_zhoushun/helm-charts/raw/master/nfs-subdir-external-provisioner-4.0.18.tgz
     version: 4.0.18
-generated: "2023-04-15T04:44:35.849324475+08:00"
+generated: "2023-05-04T19:10:11.557525439+08:00"
