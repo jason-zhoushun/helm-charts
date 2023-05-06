@@ -3,7 +3,7 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: 2.7.1
-    created: "2023-05-07T01:22:16.079756+08:00"
+    created: "2023-05-07T01:37:34.97901+08:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: d5bfeabb170f5085f3e877385041ba92b86cc6e921e273e8327e88142486c058
@@ -29,7 +29,7 @@ entries:
     version: 1.11.1
   - apiVersion: v1
     appVersion: 2.5.3
-    created: "2023-05-07T01:22:16.082615+08:00"
+    created: "2023-05-07T01:37:34.981144+08:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: d4cfcf2d1c4f46dd294788c296d5e2fe6d39a33735ddb5294527b7fd39c1efb1
@@ -58,7 +58,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.2.3
-    created: "2023-05-07T01:22:16.087673+08:00"
+    created: "2023-05-07T01:37:34.987438+08:00"
     dependencies:
     - condition: zookeeper.enabled
       name: zookeeper
@@ -94,7 +94,7 @@ entries:
   nacos:
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2023-05-07T01:22:16.091102+08:00"
+    created: "2023-05-07T01:37:34.991509+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -123,10 +123,29 @@ entries:
     urls:
     - https://gitee.com/jason_zhoushun/helm-charts/raw/master/nacos-2.1.4.tgz
     version: 2.1.4
+  - apiVersion: v2
+    appVersion: 2.0.2
+    created: "2023-05-07T01:37:34.987695+08:00"
+    description: Official helm chart for Nacos Server
+    digest: e6b510942bc91fcb9886be90adf29e5c4d7f0a35b7cc06ed1e86188435f374d7
+    home: https://nacos.io
+    keywords:
+    - key-value
+    maintainers:
+    - name: arrowfeng
+    - name: paderlol
+    - email: support@kubegems.io
+      name: KubeGems
+    name: nacos
+    sources:
+    - https://github.com/nacos-group/nacos-k8s/tree/master/helm
+    urls:
+    - https://gitee.com/jason_zhoushun/helm-charts/raw/master/nacos-0.1.5.tgz
+    version: 0.1.5
   nfs-subdir-external-provisioner:
   - apiVersion: v1
     appVersion: 4.0.2
-    created: "2023-05-07T01:22:16.091426+08:00"
+    created: "2023-05-07T01:37:34.991877+08:00"
     description: nfs-subdir-external-provisioner is an automatic provisioner that
       used your *already configured* NFS server, automatically creating Persistent
       Volumes.
@@ -143,4 +162,4 @@ entries:
     urls:
     - https://gitee.com/jason_zhoushun/helm-charts/raw/master/nfs-subdir-external-provisioner-4.0.18.tgz
     version: 4.0.18
-generated: "2023-05-07T01:22:16.076565+08:00"
+generated: "2023-05-07T01:37:34.973983+08:00"
