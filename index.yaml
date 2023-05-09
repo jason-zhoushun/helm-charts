@@ -1,9 +1,21 @@
 apiVersion: v1
 entries:
+  flink-kubernetes-operator:
+  - apiVersion: v2
+    appVersion: 1.4.0
+    created: "2023-05-09T16:19:04.807449+08:00"
+    description: A Helm chart for the Apache Flink Kubernetes Operator
+    digest: bf35a90e76153b867bff050230a06e9f9e0320778a18fc35cb44537052b502d4
+    icon: https://flink.apache.org/img/logo/png/50/color_50.png
+    name: flink-kubernetes-operator
+    type: application
+    urls:
+    - https://gitee.com/jason_zhoushun/helm-charts/raw/master/flink-kubernetes-operator-1.4.0.tgz
+    version: 1.4.0
   harbor:
   - apiVersion: v1
     appVersion: 2.7.1
-    created: "2023-05-07T16:29:41.072007+08:00"
+    created: "2023-05-09T16:19:04.809716+08:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: d5bfeabb170f5085f3e877385041ba92b86cc6e921e273e8327e88142486c058
@@ -29,7 +41,7 @@ entries:
     version: 1.11.1
   - apiVersion: v1
     appVersion: 2.5.3
-    created: "2023-05-07T16:29:41.076193+08:00"
+    created: "2023-05-09T16:19:04.812501+08:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: d4cfcf2d1c4f46dd294788c296d5e2fe6d39a33735ddb5294527b7fd39c1efb1
@@ -58,7 +70,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.2.3
-    created: "2023-05-07T16:29:41.082008+08:00"
+    created: "2023-05-09T16:19:04.816748+08:00"
     dependencies:
     - condition: zookeeper.enabled
       name: zookeeper
@@ -94,7 +106,7 @@ entries:
   nacos:
   - apiVersion: v2
     appVersion: v2.2.0
-    created: "2023-05-07T16:29:41.082341+08:00"
+    created: "2023-05-09T16:19:04.81714+08:00"
     description: Nacos Helm chart for Kubernetes
     digest: e61fc4ce302a336ae8e0c5abb11c48d6da3d16bc08b324c6c45b9677df41e2ae
     name: nacos
@@ -104,7 +116,7 @@ entries:
   nfs-subdir-external-provisioner:
   - apiVersion: v1
     appVersion: 4.0.2
-    created: "2023-05-07T16:29:41.083698+08:00"
+    created: "2023-05-09T16:19:04.817695+08:00"
     description: nfs-subdir-external-provisioner is an automatic provisioner that
       used your *already configured* NFS server, automatically creating Persistent
       Volumes.
@@ -121,4 +133,4 @@ entries:
     urls:
     - https://gitee.com/jason_zhoushun/helm-charts/raw/master/nfs-subdir-external-provisioner-4.0.18.tgz
     version: 4.0.18
-generated: "2023-05-07T16:29:41.06832+08:00"
+generated: "2023-05-09T16:19:04.804957+08:00"
