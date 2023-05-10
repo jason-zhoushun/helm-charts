@@ -3,7 +3,7 @@ entries:
   flink-kubernetes-operator:
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2023-05-09T16:19:04.807449+08:00"
+    created: "2023-05-10T15:09:09.134048+08:00"
     description: A Helm chart for the Apache Flink Kubernetes Operator
     digest: bf35a90e76153b867bff050230a06e9f9e0320778a18fc35cb44537052b502d4
     icon: https://flink.apache.org/img/logo/png/50/color_50.png
@@ -15,7 +15,7 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: 2.7.1
-    created: "2023-05-09T16:19:04.809716+08:00"
+    created: "2023-05-10T15:09:09.137498+08:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: d5bfeabb170f5085f3e877385041ba92b86cc6e921e273e8327e88142486c058
@@ -41,7 +41,7 @@ entries:
     version: 1.11.1
   - apiVersion: v1
     appVersion: 2.5.3
-    created: "2023-05-09T16:19:04.812501+08:00"
+    created: "2023-05-10T15:09:09.140252+08:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: d4cfcf2d1c4f46dd294788c296d5e2fe6d39a33735ddb5294527b7fd39c1efb1
@@ -70,7 +70,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.2.3
-    created: "2023-05-09T16:19:04.816748+08:00"
+    created: "2023-05-10T15:09:09.151533+08:00"
     dependencies:
     - condition: zookeeper.enabled
       name: zookeeper
@@ -103,10 +103,47 @@ entries:
     urls:
     - https://gitee.com/jason_zhoushun/helm-charts/raw/master/kafka-18.4.4.tgz
     version: 18.4.4
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 3.2.3
+    created: "2023-05-10T15:09:09.146476+08:00"
+    dependencies:
+    - condition: zookeeper.enabled
+      name: zookeeper
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Apache Kafka is a distributed streaming platform designed to build
+      real-time pipelines and can be used as a message broker or as a replacement
+      for a log aggregation solution for big data applications.
+    digest: fbc64a5afb4de750531d945b863ebc6cef029b116ed861d53950096100bec997
+    home: https://github.com/bitnami/charts/tree/master/bitnami/kafka
+    icon: https://bitnami.com/assets/stacks/kafka/img/kafka-stack-220x234.png
+    keywords:
+    - kafka
+    - zookeeper
+    - streaming
+    - producer
+    - consumer
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: kafka
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/kafka
+    - https://kafka.apache.org/
+    urls:
+    - https://gitee.com/jason_zhoushun/helm-charts/raw/master/kafka-18.4.3.tgz
+    version: 18.4.3
   nacos:
   - apiVersion: v2
     appVersion: v2.2.0
-    created: "2023-05-09T16:19:04.81714+08:00"
+    created: "2023-05-10T15:09:09.151823+08:00"
     description: Nacos Helm chart for Kubernetes
     digest: e61fc4ce302a336ae8e0c5abb11c48d6da3d16bc08b324c6c45b9677df41e2ae
     name: nacos
@@ -116,7 +153,7 @@ entries:
   nfs-subdir-external-provisioner:
   - apiVersion: v1
     appVersion: 4.0.2
-    created: "2023-05-09T16:19:04.817695+08:00"
+    created: "2023-05-10T15:09:09.152183+08:00"
     description: nfs-subdir-external-provisioner is an automatic provisioner that
       used your *already configured* NFS server, automatically creating Persistent
       Volumes.
@@ -133,4 +170,4 @@ entries:
     urls:
     - https://gitee.com/jason_zhoushun/helm-charts/raw/master/nfs-subdir-external-provisioner-4.0.18.tgz
     version: 4.0.18
-generated: "2023-05-09T16:19:04.804957+08:00"
+generated: "2023-05-10T15:09:09.132674+08:00"
