@@ -3,7 +3,7 @@ entries:
   flink-kubernetes-operator:
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2023-05-10T15:09:09.134048+08:00"
+    created: "2023-05-11T18:46:25.075767+08:00"
     description: A Helm chart for the Apache Flink Kubernetes Operator
     digest: bf35a90e76153b867bff050230a06e9f9e0320778a18fc35cb44537052b502d4
     icon: https://flink.apache.org/img/logo/png/50/color_50.png
@@ -15,7 +15,7 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: 2.7.1
-    created: "2023-05-10T15:09:09.137498+08:00"
+    created: "2023-05-11T18:46:25.078043+08:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: d5bfeabb170f5085f3e877385041ba92b86cc6e921e273e8327e88142486c058
@@ -41,7 +41,7 @@ entries:
     version: 1.11.1
   - apiVersion: v1
     appVersion: 2.5.3
-    created: "2023-05-10T15:09:09.140252+08:00"
+    created: "2023-05-11T18:46:25.080597+08:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: d4cfcf2d1c4f46dd294788c296d5e2fe6d39a33735ddb5294527b7fd39c1efb1
@@ -70,7 +70,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.2.3
-    created: "2023-05-10T15:09:09.151533+08:00"
+    created: "2023-05-11T18:46:25.088976+08:00"
     dependencies:
     - condition: zookeeper.enabled
       name: zookeeper
@@ -107,7 +107,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.2.3
-    created: "2023-05-10T15:09:09.146476+08:00"
+    created: "2023-05-11T18:46:25.084523+08:00"
     dependencies:
     - condition: zookeeper.enabled
       name: zookeeper
@@ -140,10 +140,37 @@ entries:
     urls:
     - https://gitee.com/jason_zhoushun/helm-charts/raw/master/kafka-18.4.3.tgz
     version: 18.4.3
+  knowstreaming-manager:
+  - apiVersion: v2
+    appVersion: 3.2.0
+    created: "2023-05-11T18:46:25.090789+08:00"
+    dependencies:
+    - condition: knowstreaming-manager.knowstreaming-web.enabled,web.enabled
+      name: knowstreaming-web
+      repository: https://docker.nginx.com/
+      version: 0.1.0
+    - condition: knowstreaming-manager.elasticsearch.enabled,elasticsearch.enabled
+      name: elasticsearch
+      repository: https://docker.elastic.co/
+      version: 7.6.0
+    - condition: knowstreaming-manager.ksmysql.enabled,ksmysql.enabled
+      name: ksmysql
+      repository: https://docker.mysql.co/
+      version: 5.7.38-1
+    description: knowstreaming-manager Helm chart
+    digest: c4df9c74b2cdcca5f7c62e4f3ae4cd62ee08e9d6856ed144577152f292f21fb4
+    maintainers:
+    - email: didicloud@didiglobal.com
+      name: didicloud
+    name: knowstreaming-manager
+    type: application
+    urls:
+    - https://gitee.com/jason_zhoushun/helm-charts/raw/master/knowstreaming-manager-0.1.9.tgz
+    version: 0.1.9
   nacos:
   - apiVersion: v2
     appVersion: v2.2.0
-    created: "2023-05-10T15:09:09.151823+08:00"
+    created: "2023-05-11T18:46:25.091234+08:00"
     description: Nacos Helm chart for Kubernetes
     digest: e61fc4ce302a336ae8e0c5abb11c48d6da3d16bc08b324c6c45b9677df41e2ae
     name: nacos
@@ -153,7 +180,7 @@ entries:
   nfs-subdir-external-provisioner:
   - apiVersion: v1
     appVersion: 4.0.2
-    created: "2023-05-10T15:09:09.152183+08:00"
+    created: "2023-05-11T18:46:25.091554+08:00"
     description: nfs-subdir-external-provisioner is an automatic provisioner that
       used your *already configured* NFS server, automatically creating Persistent
       Volumes.
@@ -170,4 +197,4 @@ entries:
     urls:
     - https://gitee.com/jason_zhoushun/helm-charts/raw/master/nfs-subdir-external-provisioner-4.0.18.tgz
     version: 4.0.18
-generated: "2023-05-10T15:09:09.132674+08:00"
+generated: "2023-05-11T18:46:25.070987+08:00"
